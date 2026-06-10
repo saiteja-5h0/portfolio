@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio of Sai Teja Mulinti, a developer building thoughtful digital experiences." />
+  <meta name="theme-color" content="#0b0c10" />
+  <meta property="og:title" content="Sai Teja Mulinti | Developer Portfolio" />
+  <meta property="og:description"
+    content="Developer portfolio featuring selected work, skills, and contact information." />
+  <meta property="og:type" content="website" />
+  <title>Sai Teja Mulinti | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to home">
+      <span class="brand-mark">ST</span>
+      <span class="brand-name">Sai Teja</span>
+    </a>
+
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="header-cta" href="mailto:saitejamulinti@gmail.com">
+      Let's talk <span aria-hidden="true">↗</span>
+    </a>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Available for opportunities</p>
+        <h1>MULINTI<br /><em>SAITEJA</em></h1>
+        <div class="hero-education">
+          <strong>CMR Institute of Technology</strong>
+          <mark>2023 — 2027</mark>
+        </div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">
+            View selected work <span aria-hidden="true">↓</span>
+          </a>
+          <a class="button button-outline" href="./resume.pdf" target="_blank">
+            View resume <span aria-hidden="true">↗</span>
+          </a>
+          <a class="text-link" href="mailto:saitejamulinti@gmail.com">
+            saitejamulinti@gmail.com <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="orbit orbit-large"></div>
+        <div class="orbit orbit-small"></div>
+        <div class="code-card">
+          <div class="code-card-top"><span></span><span></span><span></span></div>
+          <pre><code><span class="code-muted">const</span> developer = {
+  name: <span class="code-accent">'Sai Teja'</span>,
+  focus: [<span class="code-accent">'Web'</span>, <span class="code-accent">'AI'</span>],
+  graduation: <span class="code-number">2027</span>,
+  openToWork: <span class="code-number">true</span>
+};</code></pre>
+        </div>
+        <div class="floating-label label-one">Agentic AI + RAG</div>
+        <div class="floating-label label-two">Full-stack development</div>
+      </div>
+
+      <div class="hero-footer">
+        <span>Scroll to explore</span>
+        <div class="scroll-line"></div>
+        <span>Hyderabad, Telangana · Open to opportunities</span>
+      </div>
+    </section>
+
+    <section id="work" class="work section">
+      <div class="section-heading reveal">
+        <div>
+          <h2>PROJECTS</h2>
+        </div>
+        <p>
+          Full-stack and machine-learning projects designed around meaningful,
+          real-world problems.
+        </p>
+      </div>
+
+      <div id="project-grid" class="project-grid"></div>
+    </section>
+
+    <section id="experience" class="experience section">
+      <div class="section-heading reveal">
+        <div>
+          <h2>EXPERIENCE</h2>
+        </div>
+        <p>
+          Collaborating with industry leaders to build impactful AI and web solutions.
+        </p>
+      </div>
+      <div id="experience-list" class="experience-list"></div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="about-number reveal">03</div>
+      <div class="about-content reveal">
+        <h2>ABOUT ME</h2>
+        <div class="about-copy">
+          <p class="lead">
+            I'm a CSE undergraduate at CMR Institute of Technology, Hyderabad,
+            graduating in 2027.
+          </p>
+          <div>
+            <p>
+              My work spans responsive web applications, relational database design,
+              machine-learning workflows, Agentic AI, RAG pipelines, cloud platforms,
+              networking, and workflow automation.
+            </p>
+            <p>
+              I bring clean coding practices, structured problem solving, careful
+              testing, and a results-driven mindset to every project.
+            </p>
+          </div>
+        </div>
+        <div class="stats">
+          <div><strong>03</strong><span>Internships</span></div>
+          <div><strong>7.53</strong><span>B.Tech CGPA</span></div>
+          <div><strong>2027</strong><span>Graduation</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <div class="section-heading reveal">
+        <div>
+          <h2>SKILLS</h2>
+        </div>
+        <p>
+          A versatile toolkit spanning full-stack development, machine learning, and cloud.
+        </p>
+      </div>
+      <div id="skills-grid" class="skills-grid reveal"></div>
+    </section>
+
+    <section id="education" class="education section">
+      <div class="section-heading reveal">
+        <div>
+          <h2>EDUCATION</h2>
+        </div>
+        <p>
+          Continuous learning and academic excellence in computer science.
+        </p>
+      </div>
+      <div id="education-list" class="education-list reveal"></div>
+    </section>
+
+    <section id="certifications" class="certifications section">
+      <div class="section-heading reveal">
+        <div>
+          <h2>CERTIFICATIONS</h2>
+        </div>
+        <p>
+          Professional achievements and validated technical expertise.
+        </p>
+      </div>
+      <div id="certification-list" class="certification-list reveal"></div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="contact-inner reveal">
+        <h2>GET IN TOUCH</h2>
+        <p>
+          I'm open to internships, entry-level opportunities, collaborative
+          projects, and conversations about web, AI, cloud, or software engineering.
+        </p>
+        <div class="contact-links">
+          <div class="contact-info">
+            <a class="contact-email" href="mailto:saitejamulinti@gmail.com">
+              saitejamulinti@gmail.com <span aria-hidden="true">↗</span>
+            </a>
+            <a class="contact-phone" href="tel:+919618281473">
+              +91 96182 81473
+            </a>
+          </div>
+        </div>
+        <div class="social-links" aria-label="Social links">
+          <a href="https://github.com/saiteja-5h0" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/saiteja-mulinti-8a6544348/" target="_blank" rel="noreferrer">LinkedIn
+            ↗</a>
+          <a href="https://leetcode.com/u/23r01a05h0/" target="_blank" rel="noreferrer">LeetCode ↗</a>
+          <a href="./resume.pdf" target="_blank">Resume ↗</a>
+        </div>
+      </div>
+      <div class="contact-shape" aria-hidden="true">
+        <span>LET'S TALK · LET'S TALK · </span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#home"><span class="brand-mark">ST</span></a>
+    <p>Designed &amp; built by Sai Teja Mulinti.</p>
+    <p>© <span id="year"></span> All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
