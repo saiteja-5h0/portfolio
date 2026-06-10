@@ -17,7 +17,3 @@ links when available.
 
 Open `index.html` directly, or serve the folder with any static file server.
 
-## Deploy to Vercel
-
-Import this folder as a new Vercel project. Keep the framework preset as **Other** and
-leave the build command empty.
