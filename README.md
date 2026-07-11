@@ -1,4 +1,4 @@
-# Sai Teja Portfolio
+# SaiTeja Mulinti Portfolio
 
 A custom dark editorial developer portfolio built with HTML, CSS, and JavaScript.
 It has no database or server dependency and can be deployed directly to Vercel.
