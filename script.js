@@ -1,20 +1,20 @@
 const portfolioData = {
   projects: [
     {
+      title: "Organ-e",
+      icon: "🏥",
+      description:
+        "An Emergency Organ Coordination & Transplant Management with donor-recipient and Fundraising platform Prototype built with React, Node.js.",
+      url: "https://github.com/saiteja-5h0/organ-e",
+      color: "#a896ff",
+    },
+    {
       title: "Child Missing Tracker",
       icon: "🔍",
       description:
         "A full-stack platform with unique-ID registration, secure relational data retrieval, and a management dashboard for missing-child identification and tracking.",
       url: "https://github.com/saiteja-5h0/child_missing_tracker",
       color: "#c7ff42",
-    },
-    {
-      title: "Organ-e",
-      icon: "🏥",
-      description:
-        "An emergency donor-recipient platform with fast medical-record retrieval, validation safeguards, and a mobile-responsive interface.",
-      url: "https://github.com/saiteja-5h0/organ-e",
-      color: "#a896ff",
     },
     {
       title: "AI Fruit Ripeness",
