@@ -1,10 +1,18 @@
 const portfolioData = {
   projects: [
     {
+      title: "Email Scheduler",
+      icon: "📧",
+      description:
+        "A full-stack email scheduling platform built with React, TypeScript, Express.js, PostgreSQL, Prisma, Redis, BullMQ, Elasticsearch, and Ethereal SMTP.The application allows users to create email campaigns, upload recipient lists, schedule emails for future delivery, control sending speed and hourly limits, and track scheduled, sent, and failed emails.",
+      url: "https://github.com/saiteja-5h0/production-grade-email-scheduler",
+      color: "#C73E26",
+    },
+    {
       title: "Organ-e",
       icon: "🏥",
       description:
-        "An Emergency Organ Coordination & Transplant Management with donor-recipient and Fundraising platform Prototype built with React, Node.js.",
+        "A full-stack prototype that demonstrates Emergency Organ Coordination & Transplant Management Prototype built with React, Node.js, and Express, featuring verified doctor workflows, location-based request management, fundraising, and ethical healthcare coordination.",
       url: "https://github.com/saiteja-5h0/organ-e",
       color: "#a896ff",
     },
@@ -12,7 +20,7 @@ const portfolioData = {
       title: "Child Missing Tracker",
       icon: "🔍",
       description:
-        "A full-stack platform with unique-ID registration, secure relational data retrieval, and a management dashboard for missing-child identification and tracking.",
+        "Child Missing Tracker System is a full-stack web application used to register children at crowded places, generate a unique 6 digit code for each child, search child details at the help centre, and mark the child as safely exited after handover to parents.This project is useful for places like exhibitions, fairs, events, temples, malls, and other crowded areas where children can get separated from parents.",
       url: "https://github.com/saiteja-5h0/child_missing_tracker",
       color: "#c7ff42",
     },
@@ -27,19 +35,19 @@ const portfolioData = {
   ],
   experience: [
     {
-      company: "IBM SkillsBuild (AICTE Supported 1M1B)",
+      company: "1M1B || IBM SkillsBuild (AICTE Supported)",
       role: "AI for Sustainability Virtual Intern",
       date: "Dec 2025 — Jan 2026",
       summary:
-        "Designed Agentic AI and RAG pipelines, applied NLP techniques to improve system accuracy, and produced traceable technical system documentation.",
-      tags: ["Agentic AI", "RAG", "NLP", "Documentation"],
+        "Gained practical experience in AI, responsible AI, and sustainability concepts aligned with the UN Sustainable Development Goals.During this internship learned to use Agentic AI and RAG systems to solve real-life problems.Worked on problem-solving and impact-driven AI use cases, focusing on responsible and practical technology applications.",
+      tags: ["Agentic AI", "RAG", "NLP", "Sustainability"],
     },
     {
       company: "Apex Planet Software Pvt Ltd",
       role: "Web Development Virtual Intern",
       date: "Jul 2025 — Aug 2025",
       summary:
-        "Built responsive web components, integrated frontend logic with backend interfaces, tested browser compatibility, and debugged JavaScript performance issues.",
+        "Built responsive web components, integrated frontend logic with backend interfaces, tested browser compatibility, and debugged JavaScript performance issues.Developed 5+ responsive web pages using HTML5, CSS3, and JavaScript for client-facing applications.Collaborated with the development team using Git and GitHub for version control and code reviews.",
       tags: ["HTML5", "CSS3", "JavaScript", "Git"],
     },
     {
@@ -47,26 +55,26 @@ const portfolioData = {
       role: "Full Stack Development Virtual Intern",
       date: "Jul 2025 — Aug 2025",
       summary:
-        "Contributed to end-to-end applications, implemented SQL connectivity and CRUD operations, and improved stability through edge-case testing and debugging.",
+        "Contributed to end-to-end applications, implemented SQL connectivity and CRUD operations, and improved stability through edge-case testing and debugging.Implemented reliable database connectivity using complex SQL queries and CRUD operations, guaranteeing transactional data integrity.",
       tags: ["Full Stack", "SQL", "CRUD", "Testing"],
     },
   ],
   skillGroups: [
     {
       title: "Languages",
-      items: ["JavaScript", "Java", "Python", "C", "SQL"],
+      items: ["JavaScript", "Java", "Python", "C", "GOLang(Basics)"],
     },
     {
       title: "Web Dev",
-      items: ["HTML5", "CSS3", "React", "Flask", "Tailwind"],
+      items: ["HTML5", "CSS3", "React.js", "Flask", "Tailwind", "Node.js", "Express.js", "REST APIs", "PostgreSQL", "MySQL"],
     },
     {
       title: "AI & ML",
-      items: ["Agentic AI", "RAG", "NLP", "OpenCV", "Pandas"],
+      items: ["Pandas", "Numpy", "Agentic AI", "RAG", "NLP", "OpenCV", "CNN", "Scikit-learn"],
     },
     {
       title: "Tools & Cloud",
-      items: ["MySQL", "MongoDB", "AWS", "GCP", "Git"],
+      items: ["AWS", "GCP", "Git", "GitHub", "Vertex AI", "Linux", "Ubuntu", "CI/CD"],
     },
   ],
   education: [
@@ -74,7 +82,7 @@ const portfolioData = {
       school: "CMR Institute of Technology",
       course: "B.Tech, Computer Science & Engineering",
       date: "2023 — 2027",
-      result: "CGPA: 7.53",
+      result: "CGPA: 7.57",
     },
     {
       school: "Sri Chaitanya Jr. Kalasala",
@@ -90,19 +98,17 @@ const portfolioData = {
     },
   ],
   certifications: [
-    "AI Skills Passport - EY & Microsoft",
-    "ITSM Fundamentals - ServiceNow",
-    "Fundamentals of Sustainability and Technology - IBM SkillsBuild",
-    "Enterprise Networking, Security & Automation - Cisco CCNA",
+    "IBM Cognitive Class - SQL and Relational Databases 101  &  Python 101 for Data Science",
+    "Object-Oriented Programming using Python - Infosys Springboard",
+    "CCNA: Introduction to Networks; Enterprise Networking, Security, and Automation - Cisco NetAcad",
     "SQL Basic Certificate - HackerRank",
-    "Python 101 for Data Science - IBM",
-    "OPP Python - Infosys Springboard",
+    "AI Skills Passport - EY & Microsoft",
+    "Cisco NetAcad - Data Analytics Essentials",
     "ACHIEVEMENTS",
-    "Agentic AI Badge - IBM SkillsBuild",
-    "Prompt Design in Vertex AI - Google Cloud",
-    "Multimodal RAG Skill Badge - Google Cloud",
-    "Data Analytics Job Simulation - Deloitte Australia",
-    "GenAI Powered Data Analytics Job Simulation - TATA",
+    "Earned IBM SkillsBuild badges in Agentic AI and Fundamentals of Sustainability and Technology",
+    "Completed Google Cloud skill badges in Prompt Design in Vertex AI and Multimodal RAG with Gemini",
+    "Completed GenAI Powered Data Analytics job simulations by Tata by Forage.",
+    "Solved 100+ Data Structures and Algorithms problems on LeetCode",
   ],
 };
 
